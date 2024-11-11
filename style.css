@@ -1,0 +1,669 @@
+*{  
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: inline-block;
+}
+img{
+    
+    cursor: pointer;
+}
+#topc{
+    color: #800080;
+}
+#header{
+    height: 72px;
+    outline: 1px solid bisque;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    color: rgb(53, 53, 67);
+}
+#header div{
+    margin-left:10px;
+    margin-right: 10px;
+    text-align: center;
+    color: rgb(53, 53, 67);
+}
+.logo{
+    width: 155px;
+}
+/* From Uiverse.io by garerim */ 
+.container-input {
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .input {
+    width: 150px;
+    padding: 10px 90px 10px 40px;
+    border-radius: 6px;
+    border: solid 1px #333;
+    /* transition: all .2s ease-in-out; */
+    /* outline: none; */
+    /* opacity: 0.8; */
+  }
+  
+  .container-input svg {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translate(0, -50%);
+  }
+  /* .input:focus {
+    opacity: 1;
+    width: 250px;
+  } */
+ /* .inputsearch{
+        width: 300px;
+        border-radius: 5px;
+        margin-left: 40px;
+        height: 35px;
+        display: flex;
+    } */
+    h1{
+        font-family: sans-serif;
+        color: #FF00FF;
+    }
+
+.fa-mobile-screen-button{
+    margin-left: 200px;
+    padding-top: 6px;
+
+}
+.he{
+    margin-left: 30px;
+    cursor: pointer ;
+}
+.h{
+    color: violet;
+}
+.heat{
+    margin-left: 30px;
+    cursor: pointer;
+}
+.fa-user{
+    margin-top: 2px;
+    margin-left: 60px;
+    padding-top: 2px;
+}
+h6{
+    font-size: medium;
+    margin-left: 50px;
+}
+.fa-cart-shopping{
+    margin-top: 2px;
+    margin-left: 60px;
+    padding-top: 2px;
+}
+#container
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    outline: 1px solid bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#container :hover{
+    color: #800280;
+    padding-bottom: 20px;
+}
+#container div
+{   
+    color: rgb(67, 65, 65);
+    font-weight: lighter;
+    margin-left:30px;
+    margin-right: 20px;
+    text-align: center;
+}
+.lowest{
+    padding-top: 50px;
+    display: flex;
+    margin: 50px auto;
+    max-width: 1100px;
+}
+.main{
+    width: 50%;
+}
+.font{
+    font-size: 45px;
+    color: rgb(53, 53, 67);
+    font-family: sans-serif;
+}
+.free
+{
+    padding-top: 40px;
+    display: flex;
+}
+.one
+{
+    display: flex;
+    width: 100px;
+    font-size: larger;
+}
+.border{
+    border-right: 2px solid gray;
+    padding-left: 50px;
+}
+.two
+{
+    display: flex;
+    width: 100px;
+    padding-left: 70px;
+    font-size: larger;
+}
+.three
+{
+    display: flex;
+    width: 100px;
+    padding-left: 70px;
+    font-size: larger;
+}
+.download{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    height: 50px;
+    background-color: rgb(185, 29, 159);
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+}
+.download p{
+    padding: 0px 20px ;
+}
+.bor{
+    display: flex;
+}
+.typing-text {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-left: 300px;
+
+  }
+  
+  .typing-text h1 {
+    overflow: hidden;
+    white-space: nowrap; 
+    animation: typing 3s steps(30) forwards; 
+    color: #00acee;
+  }
+  
+  
+  @keyframes typing {
+    from {
+      width: 0; 
+    }
+    to {
+      width: 100%; 
+    }
+  }
+/* .top{
+    margin-left: 450px;
+    font-size: 22px;
+    margin-top: 70px;
+} */
+.flex{
+    margin-left: 80px;
+    margin-top: 70px;
+}
+.fle{
+    margin-top: 50px;
+}
+.flo{
+    margin-top: 50px;
+}
+.dropdown:hover{
+    border-bottom: 2px solid #800280;
+    margin-bottom: -20px;
+
+}
+.dropdown-item{
+    display: none;
+    position: relative;
+    background-color: rgb(244, 242, 242);
+    color: rgb(91, 89, 89);
+    border: 2px;
+    margin: 50px 5px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    }
+
+.dropdown:hover .dropdown-item{
+    display: block;
+    position: absolute;
+}
+ #contain{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 20px;
+ }
+#contain div
+{
+    width: 200px;
+    margin:10px  10px;
+    border: 1px solid rgb(214, 192, 192);
+    padding: 10px 30px;
+    
+}   
+.lin{
+    text-decoration: none;
+}
+.imag{
+    width: 200px;
+    height: 200px;
+    
+}
+.shirt{
+    font-family: sans-serif;
+    color: rgb(81, 81, 84);
+}
+.onwa{
+    color: rgb(53, 53, 67);
+    font-size: small;
+    padding-left: 10px;
+}
+.fd{
+    color: rgb(131, 131, 138);
+}
+.rev{
+    color: rgb(93, 93, 109);
+    padding-left: 10px;
+}
+.fa-star{
+    color: white;
+}
+.review{
+    color: antiquewhite;
+    background-color:#00693E;
+    border: 2px solid;
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: large; 
+    scale: 0.25s ease-in;
+    transition: 1.s ease-in;
+}
+.review:hover{
+    box-shadow: 8px 8px 5px #c457c4;
+    scale: 1.2;
+}
+#foot{
+    margin-top: 100px;
+    padding-left: 80px;
+    display: flex;
+    background-color: rgb(182, 191, 191);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sho{
+
+    color: rgb(53, 49, 49);
+}
+.pla{
+    padding-top: 40px;
+    width: 150px;
+}
+.appl{
+    width: 150px;
+}
+.caree{
+    padding-left: 40px;
+    color: rgb(35, 34, 34);
+}
+.legal{
+    padding-left: 30px;
+    color: rgb(35, 34, 34);
+}
+.icons{
+    padding-left: 30px;
+}
+.contact{
+width:300px;    
+padding-left: 50px;
+}
+.col{
+    color: rgb(35, 34, 34);
+    
+}
+/* From Uiverse.io by vinodjangid07 */ 
+.card {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 2px;
+    gap: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 32px;
+    height: 32px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+.ic{
+    width: 30px;
+    padding: 20px 3px;
+}
+.menu{
+    display: none;
+}
+.mob-nav{
+    display: flex;
+}
+.flip-left{
+    border: #c457c4;
+    
+}
+.carousel {
+		  position: relative;
+		  width: 500px;
+		  height: 400px;
+		  overflow: hidden;
+		  margin: 0 auto;
+		}
+		.carousel-item {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  width: 500px;
+		     height: 300px;
+		  display: none;
+		}
+
+		.carousel-item.active {
+		  display: block;
+		}
+
+		.carousel-controls {
+		  display: flex;
+		  justify-content: space-between;
+		  position: absolute;
+		  bottom: 40%;
+		  left: 0px;
+		  width: 100%;
+		  text-align: center;
+		}
+
+		.carousel-controls button {
+		  font-size: 24px;
+		  cursor: pointer;
+		}
+
+		.carousel-indicators {
+		  position: absolute;
+		  bottom: 20px;
+		  left: 0px;
+		  width: 100%;
+		  text-align: center;
+		}
+
+		.carousel-indicators button {
+		  width: 100px;
+		  height: 2px;
+		  border-radius: 50px;
+		  cursor: pointer;
+		  position: relative;
+		  border: none;
+		  margin: 5px;
+		}
+		.carousel-indicators button.active::after{
+		    content:"";
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 2px;
+		    border-radius: 0;
+		    background-color: #ee0a0a;
+		    animation: loading 3s ;
+		}
+
+		@keyframes loading{
+		    0%{
+		        width: 0;
+		    }
+
+		    100%{
+		        /* width: 100px; */
+		    }
+		}
+		.bg-color-01{
+			background:url(/flat.avif);
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-bottom: 20px;
+            background-size: contain;
+			/* width: 500px; */
+			height: 500px; 
+		}
+		.bg-color-02{
+			background: url(/flat\ 2.avif);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+			/* width: 500px; */
+			height: 500px; 
+		}
+		.bg-color-03{
+			background:url(/flat\ 3.avif);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+			/* width: 500px; */
+			height: 500px;
+		}
+        .bg-color-04{
+			background:url(/horizontal-banner-template-autumn-season-celebration_23-2150687714.avif);
+            background-position: center;
+            background-repeat: no-repeat;
+
+            background-size: contain;
+			/* width: 500px; */
+			height: 500px; 
+		}
+@media(max-width:768px){
+
+    .top{
+        margin-left: 400px;
+        width: 700px;
+    }
+    #contain{
+        display: grid;
+        grid-template-columns: auto auto ;   
+    
+    }
+    .imag{
+        width: 500px;
+        height: 500px;
+    }
+    #contain div{
+        margin-left: 100px;
+        width: 500px;
+        height: 800px;
+    }
+    #siz{
+        font-size: 40px;
+    }
+    .review{
+        width: 150px;
+        height: 70px;
+        font-size: 40px;
+    }
+    #foot{
+        font-size: 30px;
+        display: block;
+        text-align: center;
+        
+        
+    }
+    .caree{
+        margin-top: 100px;
+    }
+    .legal{
+        margin-top: 100px;
+    }
+    .icons{
+        margin-top: 100px;
+        
+    }
+    .card{
+        padding-left: 600px;
+        box-shadow: none;
+    }
+    .contact{
+        margin-top: 100px;
+        padding-left: 560px;
+    }
+    /* .carousel{
+        margin-top:200px ;
+        width: 500px;
+        height: 400px;
+    } */
+
+}
+
+.navbar {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    padding: 20px 32px;
+    background-color: inherit;
+    font: inherit;
+  }
+  
+  .dropdown:hover {
+    border-bottom:10px solid red;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content .header {
+    background: red;
+    padding: 16px;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .column {
+    float: left;
+    width: 32%;
+    padding: 10px;
+    height: 250px;
+  }
+  
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .column a:hover {
+    background-color: rgb(99, 215, 188);
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: auto;
+    }
+  }
+ 
